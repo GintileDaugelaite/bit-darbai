@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apmokėjimo forma</title>
+</head>
+
+<body>
+    <h1>Apmokėjimo forma</h1>
+
+    Privalomi laukai pažymėti *.
+
+    <h2>Kontaktinė informacija</h2>
+
+    <form action="./apmokejimo-formos-pridavimas.html">
+        <fieldset>
+            <legend>Kreipinys</legend>
+            <div>
+                <label>
+                    <input required type="radio" name="title" />
+                    Ponas
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input required type="radio" name="title" />
+                    Ponia
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input required type="radio" name="title" />
+                    Nesakysiu
+                </label>
+            </div>
+        </fieldset>
+        <div>
+            <label>
+                Vardas:*
+                <input required type="text" name="name" minlength="2" maxlength="50" />
+            </label>
+        </div>
+        <div>
+            <label>
+                Pavardė:*
+                <input required type="text" name="lastname" minlength="2" maxlength="50" />
+            </label>
+        </div>
+        <div>
+            <label>
+                El. paštas:*
+                <input required type="email" name="email" />
+            </label>
+        </div>
+        <div>
+            <label>
+                Slaptažodis:*
+                <input required type="password" name="password" minlength="5" />
+            </label>
+        </div>
+
+        <h2>Apmokėjimo informacija</h2>
+
+        <div>
+            <label>
+                Kortelės tipas:
+                <select required name="cardtype">
+                    <option value="visa">Visa</option>
+                    <option value="mc">Mastercard</option>
+                    <option value="amex">American Express</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>
+                Kortelės numeris:*
+                <input required type="text" name="cardnumber"
+                    pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|6(?:011|5[0-9]{2})[0-9]{12}(?:2131|1800|35\d{3})\d{11})$" />
+            </label>
+        </div>
+        <div>
+            <label>
+                Galiojimo data:* <i>pateikite mm/dd/yyyy formatu<i>
+                        <input required type="date" name="expiration" value="mm/dd/yyyy" min="2022-02-11"
+                            max="2032-02-11" />
+            </label>
+        </div>
+
+        <div>
+            <button>Pateikti</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
