@@ -1,0 +1,31 @@
+.letter {
+    max-width: 800px;
+    background-color: lavender;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.greeting {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.content {
+    padding: 25px 0;
+    text-align: justify;
+}
+
+.ending {
+    text-align: end;
+
+}
+
+.Nicole {
+    font-size: 20px;
+}
+
+.date {
+    font-weight: bold;
+}
