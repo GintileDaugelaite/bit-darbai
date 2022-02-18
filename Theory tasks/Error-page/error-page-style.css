@@ -1,0 +1,43 @@
+main {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.error {
+    color: #0e0620;
+    font-family: Arial;
+}
+
+.err {
+    font-size: 120px;
+    padding-bottom: 20px;
+}
+
+.lost {
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.message {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.sentence {
+    padding-bottom: 5px;
+}
+
+button {
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: #2ccf6d;
+    padding: 10px 50px;
+    background-color: #fff;
+
+}
