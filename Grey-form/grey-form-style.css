@@ -1,0 +1,152 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #2e3137;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95%;
+    width: 30%;
+}
+
+.heading {
+    padding: 20px;
+    color: #7d8089;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.bold {
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.xform {
+    color: #2b9fd3;
+}
+
+.Xtra {
+    color: #7a7f88;
+}
+
+form {
+    background-color: #222629;
+    color: #7d8089;
+    height: 80%;
+    width: 80%;
+    border: 1px;
+    border-radius: 7px;
+}
+
+.top {
+    text-align: center;
+    padding: 10px;
+    background-color: #454955;
+    border: 1px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.first {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: #7a7f88;
+}
+
+.field {
+    padding: 4px 90px 4px 8px;
+    background-color: #454957;
+    border: 1px;
+    border-radius: 3px;
+}
+
+.check {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.signup {
+    background-color: #2b9fd3;
+    padding: 10px 8px;
+    border: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.account {
+    text-align: center;
+    padding: 10px 8px;
+    color: #dfe4e6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    border-top: 2px dotted black;
+}
+
+.signin {
+    padding: 6px 120px 6px 100px;
+    text-transform: uppercase;
+    font-size: 11px;
+    background-color: #454957;
+    color: #fff;
+    border: 1px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.bu {
+    text-align: center;
+}
+
+.ending {
+    font-size: 10px;
+    padding: 10px;
+    color: #7a7f88;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boot {
+    color: #2b9fd3;
+}
+
+.Aydev {
+    color: #2b9fd3
+}
