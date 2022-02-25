@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./apmokejimo-forma-pseudo-css.css" />
     <title>Apmokėjimo forma</title>
 </head>
 
@@ -40,25 +41,25 @@
         <div>
             <label>
                 Vardas:*
-                <input required type="text" name="name" minlength="2" maxlength="50" />
+                <input required type="text" name="name" minlength="2" maxlength="50" placeholder="Vardas" />
             </label>
         </div>
         <div>
             <label>
                 Pavardė:*
-                <input required type="text" name="lastname" minlength="2" maxlength="50" />
+                <input required type="text" name="lastname" minlength="2" maxlength="50" placeholder="Pavardė"/>
             </label>
         </div>
         <div>
             <label>
                 El. paštas:*
-                <input required type="email" name="email" />
+                <input required type="email" name="email" placeholder="El. paštas" />
             </label>
         </div>
         <div>
             <label>
                 Slaptažodis:*
-                <input required type="password" name="password" minlength="5" />
+                <input required type="password" name="password" minlength="5" placeholder="Slaptažodis" />
             </label>
         </div>
 
@@ -77,7 +78,7 @@
         <div>
             <label>
                 Kortelės numeris:*
-                <input required type="text" name="cardnumber"
+                <input required type="text" name="cardnumber" placeholder="Kortelės numeris"
                     pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|6(?:011|5[0-9]{2})[0-9]{12}(?:2131|1800|35\d{3})\d{11})$" />
             </label>
         </div>

@@ -1,0 +1,23 @@
+body {
+    padding: 10px;
+}
+
+input::placeholder {
+    color: rgb(104, 104, 104, 0.61);
+    font-weight: bold;
+}
+label:hover {
+   outline: 3px solid brown;
+}
+input:required {
+    background-color: lightyellow;
+}
+input:valid {
+    border: 3px solid yellowgreen;
+}
+input:invalid {
+    border: 3px solid red;
+}
+input:focus {
+    outline: 3px solid blue;
+}
