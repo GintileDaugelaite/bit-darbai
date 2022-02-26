@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #0676e6;
     display: flex;
@@ -69,4 +73,51 @@ button {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 5px;
+}
+
+@media (max-width: 992px) {
+    .main {
+        padding: 70px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        width: 70%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .section {
+        font-size: 8px;
+        padding: 19px;
+    }
+}
+
+@media (max-width:600px) {
+    .main {
+        width: 70%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 360px) {
+    .main {
+        width: 90%;
+    }
 }
