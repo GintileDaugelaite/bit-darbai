@@ -1,0 +1,24 @@
+@media {
+    (max-width: 950px)
+}
+
+nav {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.submenu-list {
+    background-color: aquamarine;
+    width: 250px;
+    padding: 20px;
+    display: none;
+}
+
+li:focus .submenu-list {
+    display: block;
+}
+li::marker {
+    content: none;
+}
