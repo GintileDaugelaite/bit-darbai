@@ -1,12 +1,22 @@
-@media {
-    (max-width: 950px)
+body {
+    height: 100vh;
 }
 
 nav {
     background-color: aqua;
+    width: 80%;
+    height: 40px;
+    position: relative;
+    left: 10%;
+}
+
+.menu-list {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .submenu-list {
@@ -14,11 +24,27 @@ nav {
     width: 250px;
     padding: 20px;
     display: none;
+    position: absolute;
+    top: 30px;
+    padding-bottom: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li:not(:last-child) {
+    padding-bottom: 10px;
 }
 
 li:focus .submenu-list {
     display: block;
 }
+
 li::marker {
     content: none;
+}
+
+main {
+    padding-top: 20px;
 }
