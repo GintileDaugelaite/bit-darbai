@@ -1,0 +1,64 @@
+body {
+    color: white;
+    font-family: sans-serif;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url(https://s.aolcdn.com/os/ab/_cms/2019/10/11192400/RP-Bentley-Extreme-Silver-Flying-Spur-Monaco-48.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.burger-container {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.search-button {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.burger-container svg, .search-button svg {
+    fill: white;
+}
+
+h1 {
+    font-size: 55px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.hero-menu {
+    position: fixed;
+    bottom: 60px;
+    left: 80px;
+}
+
+@media (max-width: 476px) {
+    .hero-menu {
+        position: fixed;
+        bottom: 50px;
+        left: 20px;
+    }
+}
+
+.discover {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color: #325b4c;
+    padding: 10px 35px 10px 35px;
+    text-align: center;
+}
+
+.discover:hover {
+    color: white;
+    background-color: #858585;
+}
