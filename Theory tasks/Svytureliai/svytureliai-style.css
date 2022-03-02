@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.box {
+    height: 50%;
+    width: 50%;
+    overflow: hidden;
+
+}
+
+.inside-box {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, red, blue);
+    transition: transform 2s;
+}
+
+.box:hover .inside-box {
+    transform: scale(2) rotate(360deg);
+}
