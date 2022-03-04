@@ -40,14 +40,11 @@ body {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
     background-color: #222629;
     color: #7d8089;
-    height: 80%;
-    width: 80%;
     border: 1px;
     border-radius: 7px;
+
 }
 
 .top {
